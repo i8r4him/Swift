@@ -2,17 +2,15 @@
 // Day 2
 
 // 1. Arrays
-
-let Ahmad = "Ahmad Sheadah"
-let Ibrahim = "Ibrahim Abdullah"
-let Abdullah = [Ahmad, Ibrahim]
-Abdullah[0]
+    let Ahmad = "Ahmad Sheadah"
+    let Ibrahim = "Ibrahim Abdullah"
+    let Abdullah = [Ahmad, Ibrahim]
+    Abdullah[0]
 
 // 2. Sets
-
     // Items aren’t stored in any order; they are stored in what is effectively a random order.
     // No item can appear twice in a set; all items must be unique.
-let colors = Set(["Red", "Blue", "Green"]) // random order
+    let colors = Set(["Red", "Blue", "Green"]) // random order
 
 // 3. Tuples
 
