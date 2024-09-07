@@ -183,4 +183,12 @@ print(total2) // Prints "6"
 func greet(person: String, day: String) -> String {
     return "Hello \(person), today is \(day)."
 }
-greet(person: "Bob", day: "Tuesday")
+
+print(greet(person: "Ahmad", day: "Tuesday"))
+
+func greet2(_ person: String, on day: String) -> String {
+    return "Hello \(person), today is \(day)."
+}
+
+print(greet2("John", on: "Wednesday"))
+
